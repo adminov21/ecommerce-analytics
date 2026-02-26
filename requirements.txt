@@ -1,0 +1,8 @@
+pandas
+psycopg2-binary
+sqlalchemy
+clickhouse-connect
+python-dotenv
+jupyter
+plotly
+scikit-learn
