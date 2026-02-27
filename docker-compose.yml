@@ -48,6 +48,7 @@ services:
       _AIRFLOW_WWW_USER_CREATE: "true"
       _AIRFLOW_WWW_USER_USERNAME: admin
       _AIRFLOW_WWW_USER_PASSWORD: admin
+      _PIP_ADDITIONAL_REQUIREMENTS: "clickhouse-connect==0.6.23 pandas sqlalchemy psycopg2-binary"
     ports:
       - "8080:8080"
     volumes:

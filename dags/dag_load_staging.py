@@ -84,6 +84,6 @@ with DAG(
         }
     )
 
-    # Зависимости — сначала заказы, потом всё остальное
+    
     load_orders >> [load_items, load_customers, load_payments, load_reviews]
     load_products
