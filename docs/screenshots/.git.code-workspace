@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../.git"
+		},
+		{
+			"path": "../../dags"
+		},
+		{
+			"path": "../../data"
+		},
+		{
+			"path": "../../notebooks"
+		},
+		{
+			"path": "../../sql"
+		},
+		{
+			"path": "../../src"
+		}
+	]
+}
