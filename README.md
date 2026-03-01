@@ -26,6 +26,16 @@
 9. `python src/loaders/calculate_rfm.py`
 10. `python src/loaders/load_clickhouse.py`
 
+## Доступ к сервисам
+
+| Сервис | URL | Логин | Пароль |
+|---|---|---|---|
+| Jupyter | http://localhost:8888 | — | токен из `docker logs` |
+| Airflow | http://localhost:8080 | admin | admin |
+| Superset | http://localhost:8088 | admin | admin |
+| ClickHouse UI | http://localhost:8123/play | admin | admin |
+| PostgreSQL | localhost:5432 | admin | admin |
+
 ## Основные выводы
 - Пик продаж — ноябрь 2017 (Black Friday)
 - Топ категория по выручке — bed_bath_table
@@ -34,3 +44,4 @@
 
 ## Дашборды
 [Sales Dashboard](docs/screenshots/)
+
