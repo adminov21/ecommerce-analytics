@@ -34,7 +34,7 @@
 | Airflow | http://localhost:8080 | admin | admin |
 | Superset | http://localhost:8088 | admin | admin |
 | ClickHouse UI | http://localhost:8123/play | admin | admin |
-| PostgreSQL | localhost:5432 | admin | admin |
+| PostgreSQL | http://localhost:5432 | admin | admin |
 
 ## Основные выводы
 - Пик продаж — ноябрь 2017 (Black Friday)
